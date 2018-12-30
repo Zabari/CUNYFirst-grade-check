@@ -1,0 +1,4 @@
+# Don't push any screenshots.
+*.png
+# Don't push anyones config file.
+config.ini

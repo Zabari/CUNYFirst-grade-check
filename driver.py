@@ -112,7 +112,7 @@ def screenshot_grades():
     # I couldn't find a better way to do this, given the implicit wait above,
     # and you can't combine implicit and explicit waits. Wait until page loads
     # before taking a screenshot (sleep for 2 seconds).
-    time.sleep(2)
+    time.sleep(10)
     # Save a screenshot.
     driver.save_screenshot("./tmp.png")
     # Close browser.
